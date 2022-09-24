@@ -1,0 +1,19 @@
+server:
+  port: 8009
+  servlet:
+    context-path: /hosp
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/hospital_mgmt
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: Hospital-Management
+
+
